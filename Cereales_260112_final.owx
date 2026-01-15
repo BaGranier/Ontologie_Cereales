@@ -1,0 +1,2722 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/grani/ontologies/2026/0/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/grani/ontologies/2026/0/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/grani/ontologies/2026/0/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Alpiste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autre_orge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autres_avoines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autres_blés"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avena_Sativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_Traitée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_blanche"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_blanche_de_printemps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_décortiquée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_décortiquée_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_décortiquée_toastée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_extrudée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_floconnée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_floconnée_décortiquée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_floconnée_stabilisée_à_la_vapeur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_germée_humide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_noire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_noire_de_printemps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_non_traitée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_nue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_toastée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_épointée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_Laminé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_aplati"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_broyé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_cireux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_dur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_dur_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_dur_germé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_endommagé_par_le_gel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_expansé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_extrudé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_floconné"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_germé_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_inerté"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_infranisé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_micronisé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_non_traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_pellets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_poppé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tanné"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tendre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tendre_attaqué_par_la_rouille"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tendre_autoclavé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tendre_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tendre_cuit_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tendre_germé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_thermisé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_toasté"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_traité_avec_Aliplus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canihua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cram-Cram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crowfoot_grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Céréale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eleusine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epeautre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epeautre_Traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epeautre_non_traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_d_herbe_de_Guinée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_panic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_teff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graine_de_panic_pied-de-coq"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graine_de_ray-grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maïs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maïs_Traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maïs_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maïs_blanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maïs_broyé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maïs_jaune"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maïs_non_traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maïs_vitreux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Millet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Millet_blanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Millet_oiseaux_Traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Millet_oiseaux_non_traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Millet_rouge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_2_rangs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_2_rangs_de_printemps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_6_rangs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_6_rangs_de_printemps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_aplatie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_broyée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_chauffée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_cireux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_décortiquée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_expansée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_extrudée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_floconnée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_floconnée_décortiquée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_germée_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_laminée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_non_traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_nue_2_rangs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_nue_6_rangs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_poppée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_tannée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_toastée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_traitée_avec_Aliplus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orgette_de_tri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pennisetum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petit_blé_dur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quinoa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ray-grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_cargo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_cargo_expansé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_cargo_extrudé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_cuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_expansé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_extrudé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_floconné"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_non_traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_paddy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_paddy_broyé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_paddy_ensilé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_paddy_floconné"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_paddy_germé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_poli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_poli_floconné"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_précuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riz_traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sarrasin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sarrasin_Traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sarrasin_non_traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scrobic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seigle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seigle_13_pourcent_de_prot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seigle_Traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seigle_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seigle_expansé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seigle_non_traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semoule_de_riz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_Non_Traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_Traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_blanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_cireux_faible_en_tanins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_cireux_riche_en_tanins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_décortiqué"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_expansé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_extrudé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_faible_en_tanins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_floconné"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_jaune"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_riche_en_tanins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_rouge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sétaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triticale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triticale_aplati"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triticale_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triticale_floconné"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triticale_germé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triticale_laminé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triticale_non_traité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triticale_traitée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alpiste_(Phalaris_Canariensis)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_blanche_d&apos;hiver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_maigre,_protéines_sup._14/100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_noire_d&apos;hiver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_nue,_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_sauvage_(Avena_fatua),_grain_décortiquée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoine_sauvage_(Avena_fatua),_grain_entier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé,_Afrique_subsaharienne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé,_protéines_sup._17/100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_humide,_matière_sèche_inf._80/100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tendre,_amidon_inf._53/100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tendre,_poids_spécifique_sup._69_kg/hl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tendre_d&apos;hiver_de_type_améliorant_ou_de_force"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tendre_d&apos;hiver_de_type_autres_usages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tendre_d&apos;hiver_de_type_panifiable_courant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blé_tendre_d&apos;hiver_de_type_panifiable_supérieur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canihua_(Chenopodium_pallidicaule),_graine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eleusine_(Eleusine_coracana)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eleusine_(Eleusine_coracana)_décortiquée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epeautre_(Triticum_spelta)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epeautre_(Triticum_spelta)_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epeautre_(Triticum_spelta)_décortiqué"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_d&apos;egyptian_crowfoot_grass_(Dactyloctenium_aegyptium)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_d&apos;herbe_de_Guinée_(Megathyrsus_maximus)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_cram-cram_(Cenchrus_biflorus)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_panic_(Panicum_antidotale)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_panic_d&apos;eau_(Echinochloa_frumentacea)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_panic_pied-de-coq_(Echinochloa_colona)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_panic_pied-de-coq_(Echinochloa_crus-galli)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_panic_pied-de-coq_(Echinochloa_crus-galli),_décortiqué"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_pennisetum_(Pennisetum_violaceum)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_riz_rouge_(Oryza_punctata)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_scrobic_(Paspalum_scrobiculatum)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_scrobic_(Paspalum_scrobiculatum),_décortiqué"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_sétaire_naine_(Setaria_pumila)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_sétaire_verte_(Setaria_viridis)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_de_teff_(Eragrostis_tef)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graine_de_panic_(Panicum_turgidum)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graine_de_panic_(Steinchisma_laxum)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mil_(Pennisetum_glaucum)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mil_(Pennisetum_glaucum)_décortiqué"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Millet_commun_(Panicum_miliaceum)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Millet_des_oiseaux_(Setaria_italica)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Millet_des_oiseaux_(Setaria_italica)_décortiqué,_variété_glutineuse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Millet_des_oiseaux_(Setaria_italica)_décortiqué,_variété_non_glutineuse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge,_amidon_inf._45/100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge,_protéines_sup._15/100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_2_rangs_d&apos;hiver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_6_rangs_d&apos;hiver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_germée,_matière_sèche_inf._70/100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_germée,_matière_sèche_sup._70/100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orge_nue,_variété_cireuse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quinoa_(Chenopodium_quinoa)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quinoa_(Chenopodium_quinoa)_graine_décortiquée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sarrasin_(Fagopyrum_esculentum)_biologique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sarrasin_(Fagopyrum_esculentum)_décortiqué"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sarrasin_de_Tartarie_(Fagopyrum_tataricum)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sarrasin_de_Tartarie_(Fagopyrum_tataricum)_décortiqué"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho,_amidon_inf._60/100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho,_protéines_sup._14/100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorgho_sauvage_(Sorghum_bicolor_subsp._verticilliflorum)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Alpiste"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autre_orge"/>
+        <Class IRI="#Orge_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autres_avoines"/>
+        <Class IRI="#Avoine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autres_blés"/>
+        <Class IRI="#Blé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avena_Sativa"/>
+        <Class IRI="#Avoine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_Traitée"/>
+        <Class IRI="#Avena_Sativa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_biologique"/>
+        <Class IRI="#Avoine_non_traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_blanche"/>
+        <Class IRI="#Avoine_non_traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_blanche_de_printemps"/>
+        <Class IRI="#Avoine_non_traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_décortiquée"/>
+        <Class IRI="#Avoine_Traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_décortiquée_biologique"/>
+        <Class IRI="#Avoine_Traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_décortiquée_toastée"/>
+        <Class IRI="#Avoine_Traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_extrudée"/>
+        <Class IRI="#Avoine_Traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_floconnée"/>
+        <Class IRI="#Avoine_Traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_floconnée_décortiquée"/>
+        <Class IRI="#Avoine_Traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_floconnée_stabilisée_à_la_vapeur"/>
+        <Class IRI="#Avoine_Traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_germée_humide"/>
+        <Class IRI="#Avoine_non_traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_noire"/>
+        <Class IRI="#Avoine_non_traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_noire_de_printemps"/>
+        <Class IRI="#Avoine_non_traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_non_traitée"/>
+        <Class IRI="#Avena_Sativa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_nue"/>
+        <Class IRI="#Autres_avoines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_toastée"/>
+        <Class IRI="#Avoine_Traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_épointée"/>
+        <Class IRI="#Avoine_Traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_Laminé"/>
+        <Class IRI="#Autres_blés"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_aplati"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_broyé"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_cireux"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_dur"/>
+        <Class IRI="#Blé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_dur_biologique"/>
+        <Class IRI="#Blé_dur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_dur_germé"/>
+        <Class IRI="#Blé_dur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_endommagé_par_le_gel"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_expansé"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_extrudé"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_floconné"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_germé_biologique"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_inerté"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_infranisé"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_micronisé"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_non_traité"/>
+        <Class IRI="#Blé_tendre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_pellets"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_poppé"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tanné"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tendre"/>
+        <Class IRI="#Blé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tendre_attaqué_par_la_rouille"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tendre_autoclavé"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tendre_biologique"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tendre_cuit_biologique"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tendre_germé"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_thermisé"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_toasté"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_traité"/>
+        <Class IRI="#Blé_tendre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_traité_avec_Aliplus"/>
+        <Class IRI="#Blé_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canihua"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cram-Cram"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crowfoot_grass"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eleusine"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epeautre"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epeautre_Traité"/>
+        <Class IRI="#Epeautre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epeautre_non_traité"/>
+        <Class IRI="#Epeautre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_d_herbe_de_Guinée"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_panic"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_teff"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graine_de_panic_pied-de-coq"/>
+        <Class IRI="#Grain_de_panic_(Panicum_antidotale)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graine_de_ray-grass"/>
+        <Class IRI="#Ray-grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maïs"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maïs_Traité"/>
+        <Class IRI="#Maïs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maïs_biologique"/>
+        <Class IRI="#Maïs_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maïs_blanc"/>
+        <Class IRI="#Maïs_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maïs_broyé"/>
+        <Class IRI="#Maïs_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maïs_jaune"/>
+        <Class IRI="#Maïs_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maïs_non_traité"/>
+        <Class IRI="#Maïs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maïs_vitreux"/>
+        <Class IRI="#Maïs_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mil"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Millet"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Millet_blanc"/>
+        <Class IRI="#Millet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Millet_oiseaux_Traité"/>
+        <Class IRI="#Millet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Millet_oiseaux_non_traité"/>
+        <Class IRI="#Millet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Millet_rouge"/>
+        <Class IRI="#Millet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_2_rangs"/>
+        <Class IRI="#Orge_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_2_rangs_de_printemps"/>
+        <Class IRI="#Orge_2_rangs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_6_rangs"/>
+        <Class IRI="#Orge_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_6_rangs_de_printemps"/>
+        <Class IRI="#Orge_6_rangs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_aplatie"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_biologique"/>
+        <Class IRI="#Autre_orge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_broyée"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_chauffée"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_cireux"/>
+        <Class IRI="#Autre_orge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_décortiquée"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_expansée"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_extrudée"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_floconnée"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_floconnée_décortiquée"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_germée_biologique"/>
+        <Class IRI="#Autre_orge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_laminée"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_non_traité"/>
+        <Class IRI="#Orge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_nue_2_rangs"/>
+        <Class IRI="#Orge_2_rangs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_nue_6_rangs"/>
+        <Class IRI="#Orge_6_rangs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_poppée"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_tannée"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_toastée"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_traité"/>
+        <Class IRI="#Orge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_traitée_avec_Aliplus"/>
+        <Class IRI="#Orge_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orgette_de_tri"/>
+        <Class IRI="#Autre_orge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pennisetum"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petit_blé_dur"/>
+        <Class IRI="#Blé_dur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quinoa"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ray-grass"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_cargo"/>
+        <Class IRI="#Riz_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_cargo_expansé"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_cargo_extrudé"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_cuit"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_expansé"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_extrudé"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_floconné"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_non_traité"/>
+        <Class IRI="#Riz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_paddy"/>
+        <Class IRI="#Riz_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_paddy_broyé"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_paddy_ensilé"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_paddy_floconné"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_paddy_germé"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_poli"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_poli_floconné"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_précuit"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riz_traité"/>
+        <Class IRI="#Riz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sarrasin"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sarrasin_Traité"/>
+        <Class IRI="#Sarrasin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sarrasin_non_traité"/>
+        <Class IRI="#Sarrasin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scrobic"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seigle"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seigle_13_pourcent_de_prot"/>
+        <Class IRI="#Seigle_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seigle_Traité"/>
+        <Class IRI="#Seigle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seigle_biologique"/>
+        <Class IRI="#Seigle_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seigle_expansé"/>
+        <Class IRI="#Seigle_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seigle_non_traité"/>
+        <Class IRI="#Seigle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semoule_de_riz"/>
+        <Class IRI="#Riz_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_Non_Traité"/>
+        <Class IRI="#Sorgho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_Traité"/>
+        <Class IRI="#Sorgho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_biologique"/>
+        <Class IRI="#Sorgho_Non_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_blanc"/>
+        <Class IRI="#Sorgho_Non_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_cireux_faible_en_tanins"/>
+        <Class IRI="#Sorgho_Non_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_cireux_riche_en_tanins"/>
+        <Class IRI="#Sorgho_Non_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_décortiqué"/>
+        <Class IRI="#Sorgho_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_expansé"/>
+        <Class IRI="#Sorgho_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_extrudé"/>
+        <Class IRI="#Sorgho_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_faible_en_tanins"/>
+        <Class IRI="#Sorgho_Non_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_floconné"/>
+        <Class IRI="#Sorgho_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_jaune"/>
+        <Class IRI="#Sorgho_Non_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_riche_en_tanins"/>
+        <Class IRI="#Sorgho_Non_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_rouge"/>
+        <Class IRI="#Sorgho_Non_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sétaire"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triticale"/>
+        <Class IRI="#Céréale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triticale_aplati"/>
+        <Class IRI="#Triticale_traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triticale_biologique"/>
+        <Class IRI="#Triticale_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triticale_floconné"/>
+        <Class IRI="#Triticale_traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triticale_germé"/>
+        <Class IRI="#Triticale_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triticale_laminé"/>
+        <Class IRI="#Triticale_traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triticale_non_traité"/>
+        <Class IRI="#Triticale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triticale_traitée"/>
+        <Class IRI="#Triticale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alpiste_(Phalaris_Canariensis)"/>
+        <Class IRI="#Alpiste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_blanche_d&apos;hiver"/>
+        <Class IRI="#Avoine_non_traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_maigre,_protéines_sup._14/100"/>
+        <Class IRI="#Autres_avoines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_noire_d&apos;hiver"/>
+        <Class IRI="#Avoine_non_traitée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_nue,_biologique"/>
+        <Class IRI="#Autres_avoines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_sauvage_(Avena_fatua),_grain_décortiquée"/>
+        <Class IRI="#Autres_avoines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoine_sauvage_(Avena_fatua),_grain_entier"/>
+        <Class IRI="#Autres_avoines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé,_Afrique_subsaharienne"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé,_protéines_sup._17/100"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_humide,_matière_sèche_inf._80/100"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tendre,_amidon_inf._53/100"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tendre,_poids_spécifique_sup._69_kg/hl"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tendre_d&apos;hiver_de_type_améliorant_ou_de_force"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tendre_d&apos;hiver_de_type_autres_usages"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tendre_d&apos;hiver_de_type_panifiable_courant"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blé_tendre_d&apos;hiver_de_type_panifiable_supérieur"/>
+        <Class IRI="#Blé_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canihua_(Chenopodium_pallidicaule),_graine"/>
+        <Class IRI="#Canihua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eleusine_(Eleusine_coracana)"/>
+        <Class IRI="#Eleusine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eleusine_(Eleusine_coracana)_décortiquée"/>
+        <Class IRI="#Eleusine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epeautre_(Triticum_spelta)"/>
+        <Class IRI="#Epeautre_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epeautre_(Triticum_spelta)_biologique"/>
+        <Class IRI="#Epeautre_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epeautre_(Triticum_spelta)_décortiqué"/>
+        <Class IRI="#Epeautre_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_d&apos;egyptian_crowfoot_grass_(Dactyloctenium_aegyptium)"/>
+        <Class IRI="#Crowfoot_grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_d&apos;herbe_de_Guinée_(Megathyrsus_maximus)"/>
+        <Class IRI="#Grain_d_herbe_de_Guinée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_cram-cram_(Cenchrus_biflorus)"/>
+        <Class IRI="#Cram-Cram"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_panic_(Panicum_antidotale)"/>
+        <Class IRI="#Grain_de_panic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_panic_d&apos;eau_(Echinochloa_frumentacea)"/>
+        <Class IRI="#Grain_de_panic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_panic_pied-de-coq_(Echinochloa_colona)"/>
+        <Class IRI="#Grain_de_panic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_panic_pied-de-coq_(Echinochloa_crus-galli)"/>
+        <Class IRI="#Graine_de_panic_pied-de-coq"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_panic_pied-de-coq_(Echinochloa_crus-galli),_décortiqué"/>
+        <Class IRI="#Graine_de_panic_pied-de-coq"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_pennisetum_(Pennisetum_violaceum)"/>
+        <Class IRI="#Pennisetum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_riz_rouge_(Oryza_punctata)"/>
+        <Class IRI="#Riz_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_scrobic_(Paspalum_scrobiculatum)"/>
+        <Class IRI="#Scrobic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_scrobic_(Paspalum_scrobiculatum),_décortiqué"/>
+        <Class IRI="#Scrobic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_sétaire_naine_(Setaria_pumila)"/>
+        <Class IRI="#Sétaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_sétaire_verte_(Setaria_viridis)"/>
+        <Class IRI="#Sétaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_de_teff_(Eragrostis_tef)"/>
+        <Class IRI="#Grain_de_teff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graine_de_panic_(Panicum_turgidum)"/>
+        <Class IRI="#Grain_de_panic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graine_de_panic_(Steinchisma_laxum)"/>
+        <Class IRI="#Grain_de_panic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mil_(Pennisetum_glaucum)"/>
+        <Class IRI="#Mil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mil_(Pennisetum_glaucum)_décortiqué"/>
+        <Class IRI="#Mil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Millet_commun_(Panicum_miliaceum)"/>
+        <Class IRI="#Millet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Millet_des_oiseaux_(Setaria_italica)"/>
+        <Class IRI="#Millet_oiseaux_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Millet_des_oiseaux_(Setaria_italica)_décortiqué,_variété_glutineuse"/>
+        <Class IRI="#Millet_oiseaux_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Millet_des_oiseaux_(Setaria_italica)_décortiqué,_variété_non_glutineuse"/>
+        <Class IRI="#Millet_oiseaux_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge,_amidon_inf._45/100"/>
+        <Class IRI="#Autre_orge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge,_protéines_sup._15/100"/>
+        <Class IRI="#Autre_orge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_2_rangs_d&apos;hiver"/>
+        <Class IRI="#Orge_2_rangs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_6_rangs_d&apos;hiver"/>
+        <Class IRI="#Orge_6_rangs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_germée,_matière_sèche_inf._70/100"/>
+        <Class IRI="#Autre_orge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_germée,_matière_sèche_sup._70/100"/>
+        <Class IRI="#Autre_orge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orge_nue,_variété_cireuse"/>
+        <Class IRI="#Autre_orge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quinoa_(Chenopodium_quinoa)"/>
+        <Class IRI="#Quinoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quinoa_(Chenopodium_quinoa)_graine_décortiquée"/>
+        <Class IRI="#Quinoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sarrasin_(Fagopyrum_esculentum)_biologique"/>
+        <Class IRI="#Sarrasin_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sarrasin_(Fagopyrum_esculentum)_décortiqué"/>
+        <Class IRI="#Sarrasin_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sarrasin_de_Tartarie_(Fagopyrum_tataricum)"/>
+        <Class IRI="#Sarrasin_non_traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sarrasin_de_Tartarie_(Fagopyrum_tataricum)_décortiqué"/>
+        <Class IRI="#Sarrasin_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho,_amidon_inf._60/100"/>
+        <Class IRI="#Sorgho_Non_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho,_protéines_sup._14/100"/>
+        <Class IRI="#Sorgho_Non_Traité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorgho_sauvage_(Sorghum_bicolor_subsp._verticilliflorum)"/>
+        <Class IRI="#Sorgho_Non_Traité"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Alpiste</IRI>
+        <Literal>Céréale annuelle (Phalaris canariensis) principalement cultivée pour l’alimentation des oiseaux, parfois utilisée en fourrage ou en couverture végétale. Graminée tolérante au froid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Autre_orge</IRI>
+        <Literal>Regroupe les autres types d’orge, différenciés selon l’usage et la morphologie de l’épi.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Autres_avoines</IRI>
+        <Literal>Ensemble d’espèces du genre Avena autres que A. sativa, souvent utilisées en fourrage, couvert végétal ou présentes à l’état sauvage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Autres_blés</IRI>
+        <Literal>Autres espèces ou types de Triticum (blés anciens, amidonniers, engrain), souvent rustiques et à usages spécifiques.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avena_Sativa</IRI>
+        <Literal>Espèce d’avoine cultivée principalement pour le grain et le fourrage. Céréale rustique adaptée aux climats tempérés frais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine</IRI>
+        <Literal>Céréale annuelle du genre Avena, cultivée pour le grain et le fourrage. Appréciée pour sa rusticité, sa valeur alimentaire et son adaptation aux climats frais et humides.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_Traitée</IRI>
+        <Literal>Avoine ayant subi une transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_biologique</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L. en général, ou Avena nuda L.) issu de l&apos;agriculture biologique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_blanche</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L.) de variétés d&apos;hiver de couleur blanche.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_blanche_de_printemps</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L.) de variétés de printemps de couleur blanche.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_décortiquée</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L. en principe) dont les enveloppes ont été retirées.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_décortiquée_biologique</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L. en principe) dont les enveloppes ont été retirées, issues de l&apos;agriculture biologique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_décortiquée_toastée</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L.) ayant subi un décorticage et un toastage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_extrudée</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L. en général, ou Avena nuda L.) ayant subi une extrusion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_floconnée</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L.) ayant subi un traitement de floconnage (aplatissement et chaleur humide, en principe).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_floconnée_décortiquée</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L.) ayant subi un traitement de floconnage (aplatissement et chaleur humide, en principe) et un décorticage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_floconnée_stabilisée_à_la_vapeur</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L.) ayant subi un traitement de floconnage (aplatissement et chaleur humide, en principe) suivi d&apos;une &quot;stabilisation par la vapeur&quot;, traitement indéterminé.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_germée_humide</IRI>
+        <Literal>Grain d&apos;avoine germé humide (Avena sativa L.).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_noire</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L.) de variétés de couleur sombre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_noire_de_printemps</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L.) de variétés de printemps de couleur sombre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_non_traitée</IRI>
+        <Literal>Avoine  n&apos;ayant pas subi de transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_nue</IRI>
+        <Literal>Grain d&apos;avoine nue (Avena nuda L.), espèce particulière d&apos;avoine (à ne pas confondre avec l&apos;avoine décortiquée). L&apos;avoine nue se distingue de l&apos;avoine commune (Avena sativa L.), par la présence d&apos;enveloppes fines se détachant très facilement. Les avoines nues sont utilisées en alimentation humaine en Chine. Par rapport à l&apos;avoine commune, le grain contient plus de protéines (14-15% MS contre 11-12% MS), moins de fibres et plus de matières grasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_toastée</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L.) ayant subi un toastage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_épointée</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L. en principe) dont les enveloppes ont été retirées et qui a été coupé en petits morceaux.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé</IRI>
+        <Literal>Céréale annuelle du genre Triticum, base de l’alimentation humaine mondiale. Cultivée pour ses grains riches en amidon et en gluten, adaptés à la panification.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_Laminé</IRI>
+        <Literal>Grain de blé (Triticum spp.) ayant subi un laminage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_aplati</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant subi un aplatissage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_broyé</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant subi un broyage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_cireux</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) de variété cireuse.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_dur</IRI>
+        <Literal>Céréale Triticum durum, cultivée pour la semoule et les pâtes alimentaires. Adaptée aux climats chauds et secs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_dur_biologique</IRI>
+        <Literal>Grain de blé dur (Triticum durum L.) issu de l&apos;agriculture biologique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_dur_germé</IRI>
+        <Literal>Grain de blé dur (Triticum durum L.) ayant commencé à germer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_endommagé_par_le_gel</IRI>
+        <Literal>Blé endommagé par le gel (Triticum aestivum L.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_expansé</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant subi une expansion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_extrudé</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant subi une extrusion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_floconné</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant subi un floconnage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_germé_biologique</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant commencé sa germination, issu de l&apos;agriculture biologique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_inerté</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) conservé par inertage (conservation par anaérobiose en silo étanche).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_infranisé</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) traité aux infrarouges. L&apos;infranisation est un traitement thermique dans lequel le produit, réparti sur un tapis convoyeur, est soumis pendant 40 à 90 secondes à l&apos;action de rayons infra-rouges émis par une série de brûleurs en céramique. Terme anglais : micronizing (à ne pas traduire par micronisation, procédé de broyage ultra-fin).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_micronisé</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant subi une micronisation (broyage ultra-fin).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_non_traité</IRI>
+        <Literal>Blé  n&apos;ayant pas subi de transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_pellets</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant subi une granulation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_poppé</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) cuit sous pression (25 bars à 300°C dans le système Presco) puis soufflée par expansion (popping)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tanné</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant subi un tannage par une méthode non spécifiée en vue de protéger les protéines dans le rumen.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tendre</IRI>
+        <Literal>Céréale Triticum aestivum, destinée majoritairement à la panification. Grains riches en gluten extensible.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tendre_attaqué_par_la_rouille</IRI>
+        <Literal>Grain de blé tendre (Triticum aestivum L.) ayant subi un attaque de rouille.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tendre_autoclavé</IRI>
+        <Literal>Grain de blé tendre (Triticum aestivum L.) traité par autoclave.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tendre_biologique</IRI>
+        <Literal>Grain de blé tendre (Triticum aestivum L.) issu de l&apos;agriculture biologique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tendre_cuit_biologique</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant subi une cuisson, issu de l&apos;agriculture biologique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tendre_germé</IRI>
+        <Literal>Grain de blé tendre (Triticum aestivum L.) ayant commencé à germer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_thermisé</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant subi un traitement thermique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_toasté</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant subi un toastage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_traité</IRI>
+        <Literal>Blé ayant subi une transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_traité_avec_Aliplus</IRI>
+        <Literal>Grain de blé tendre (Triticum aestivum L.) traité avec Aliplus, additif commercial contenant de l&apos;urée, des extraits végétaux, des oligo-éléments et de l&apos;argile.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Canihua</IRI>
+        <Literal>Pseudo-céréale andine (Chenopodium pallidicaule), proche du quinoa, très résistante au froid et à la sécheresse, cultivée pour ses graines riches en protéines.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Cram-Cram</IRI>
+        <Literal>Graminée annuelle épineuse (Cenchrus biflorus), fréquente en zones sahéliennes. Plante adventice mais parfois récoltée pour ses grains comestibles ou comme fourrage de disette.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Crowfoot_grass</IRI>
+        <Literal>Nom anglais de Dactyloctenium aegyptium, graminée annuelle tropicale. Utilisée comme fourrage, parfois adventice des cultures, tolérante à la sécheresse.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Céréale</IRI>
+        <Literal>Les céréales sont des plantes monocotylédones de la famille des poacées (les graminées), sauvages ou cultivées, qui produisent des grains comestibles, utilisés principalement en alimentation humaine, souvent moulus sous forme de farine raffinée ou plus ou moins complète[1].</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Eleusine</IRI>
+        <Literal>Graminée du genre Eleusine, notamment Eleusine coracana (mil à doigts). Céréale importante en Afrique et en Inde, résistante à la sécheresse.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Epeautre</IRI>
+        <Literal>Ancienne céréale du genre Triticum (Triticum spelta), proche du blé, rustique et adaptée aux sols pauvres. Grains vêtus nécessitant décorticage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Epeautre_Traité</IRI>
+        <Literal>Epeautre ayant subi une transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Epeautre_non_traité</IRI>
+        <Literal>Epeautre  n&apos;ayant pas subi de transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_d_herbe_de_Guinée</IRI>
+        <Literal>Grain issu de Panicum maximum, grande graminée tropicale principalement fourragère. Les graines sont parfois récoltées localement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_panic</IRI>
+        <Literal>Grain produit par différentes espèces du genre Panicum, utilisées comme céréales secondaires ou fourrages selon les espèces.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_teff</IRI>
+        <Literal>Grain de Eragrostis tef, céréale majeure d’Éthiopie. Très petit grain, riche nutritionnellement, adapté aux conditions sèches et aux sols pauvres.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Graine_de_panic_pied-de-coq</IRI>
+        <Literal>Semence de Echinochloa crus-galli, graminée annuelle de la famille des Poacées, souvent considérée comme adventice des cultures, notamment du riz et du maïs. Elle se développe rapidement en conditions chaudes et humides. Ses graines peuvent être utilisées localement comme fourrage ou, de façon marginale, comme ressource alimentaire traditionnelle ou grain de disette.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Graine_de_ray-grass</IRI>
+        <Literal>Graine de ray-grass (Lolium spp.).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Maïs</IRI>
+        <Literal>Céréale annuelle (Zea mays) originaire d’Amérique, cultivée mondialement pour l’alimentation humaine, animale et industrielle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Maïs_Traité</IRI>
+        <Literal>Maïs  ayant subi une transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Maïs_biologique</IRI>
+        <Literal>Grain de maïs (Zea mays L.) issu de l&apos;agriculture biologique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Maïs_blanc</IRI>
+        <Literal>Grain de maïs (Zea mays L.) à tégument blanc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Maïs_broyé</IRI>
+        <Literal>Grain de maïs (Zea mays L.) ayant subi un broyage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Maïs_jaune</IRI>
+        <Literal>Grain de maïs (Zea mays L.) de variétés à grain jaune.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Maïs_non_traité</IRI>
+        <Literal>Maïs  n&apos;ayant pas subi de transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Maïs_vitreux</IRI>
+        <Literal>Grain de maïs (Zea mays L.) de variété vitreuse, d&apos;origine Argentine, destiné à la transformation (semoule, corn flakes etc.). Synonymes : flint, plate, plata, hard red.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Mil</IRI>
+        <Literal>Terme générique désignant plusieurs petites céréales à grains ronds (ex. Pennisetum glaucum), adaptées aux zones arides et semi-arides.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Millet</IRI>
+        <Literal>Nom commun regroupant diverses céréales à petits grains (mil perlé, millet commun, etc.), résistantes à la sécheresse et à cycle court.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Millet_blanc</IRI>
+        <Literal>Graine d&apos;une espèce de millet indéterminée, probablement à enveloppes claires.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Millet_oiseaux_Traité</IRI>
+        <Literal>Millet oiseaux  ayant subi une transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Millet_oiseaux_non_traité</IRI>
+        <Literal>Millet oiseaux  n&apos;ayant pas subi de transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Millet_rouge</IRI>
+        <Literal>Graine d&apos;une espèce de millet indéterminée, probablement à enveloppes colorées.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge</IRI>
+        <Literal>Céréale annuelle (Hordeum vulgare), utilisée pour l’alimentation humaine, animale et la malterie. Bonne tolérance au froid et à la salinité.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_2_rangs</IRI>
+        <Literal>Grain d&apos;orge 2 rangs (Hordeum vulgare L.).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_2_rangs_de_printemps</IRI>
+        <Literal>Grain d&apos;orge 2 rangs (Hordeum vulgare L.) de variétés de printemps.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_6_rangs</IRI>
+        <Literal>Type morphologique d’orge (Hordeum vulgare) dont l’épi porte six rangées de grains, généralement utilisé en alimentation animale ou pour certains usages industriels.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_6_rangs_de_printemps</IRI>
+        <Literal>&quot;Grain d&apos;orge 6 rangs (Hordeum vulgare L.) de variétés de printemps. En France, les orges 6 rangs sont plutôt des variétés d&apos;hiver.
+ 
+ Synonyme : escourgeon.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_aplatie</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) ayant subi un aplatissage. Il n&apos;est pas sûr que cette appelation distingue les orges aplaties et floconnées, les deux termes étant souvent pris l&apos;un pour l&apos;autre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_biologique</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) issu de l&apos;agriculture biologique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_broyée</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) ayant subi un broyage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_chauffée</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) soumis à un traitement thermique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_cireux</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) de variété cireuse.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_décortiquée</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) décortiqué.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_expansée</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) soufflé par expansion (popping)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_extrudée</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) ayant subi une extrusion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_floconnée</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) ayant subi un floconnage. Il n&apos;est pas sûr que cette appelation distingue les orges aplaties et floconnées, les deux termes étant souvent pris l&apos;un pour l&apos;autre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_floconnée_décortiquée</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) ayant subi un décorticage et un floconnage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_germée_biologique</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) ayant commencé sa germination, issue de l&apos;agriculture biologique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_laminée</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) ayant subi un laminage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_non_traité</IRI>
+        <Literal>Orge  n&apos;ayant pas subi de transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_nue_2_rangs</IRI>
+        <Literal>Grain d&apos;orge 2 rangs (Hordeum vulgare L.) de variété nue (sans glumelles).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_nue_6_rangs</IRI>
+        <Literal>Grain d&apos;orge 6 rangs (Hordeum vulgare L.) de variété nue (sans glumelles).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_poppée</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) cuit sous pression (25 bars à 300°C dans le système Presco) puis soufflée par expansion (popping)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_tannée</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) ayant subi un tannage par une méthode non spécifiée en vue de protéger les protéines dans le rumen.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_toastée</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) ayant subi un toastage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_traité</IRI>
+        <Literal>Orge ayant subi une transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_traitée_avec_Aliplus</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) traité avec Aliplus, additif commercial contenant de l&apos;urée, des extraits végétaux, des oligo-éléments et de l&apos;argile.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orgette_de_tri</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) de petite taille rejetés lors du tri des grains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Pennisetum</IRI>
+        <Literal>Genre de graminées comprenant des espèces fourragères et céréalières, notamment le mil perlé (Pennisetum glaucum).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Petit_blé_dur</IRI>
+        <Literal>Grains de blé dur (Triticum durum L.) constitués des écarts de nettoyage, d&apos;adventices et grains sous-dimensionnés.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Quinoa</IRI>
+        <Literal>Pseudo-céréale andine (Chenopodium quinoa), cultivée pour ses graines riches en protéines et minéraux, très adaptable aux stress abiotiques.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Ray-grass</IRI>
+        <Literal>Graminée fourragère du genre Lolium, largement utilisée en pâturage et en fauche pour sa productivité et sa valeur alimentaire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz</IRI>
+        <Literal>Céréale annuelle du genre Oryza, cultivée en milieu inondé ou pluvial. Aliment de base pour une grande partie de la population mondiale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_cargo</IRI>
+        <Literal>&quot;Grain de riz (Oryza sativa L.) obtenu par décorticage du riz paddy, débarrassé des balles mais contenant encore le péricarpe. Le riz cargo doit ensuite être blanchi (élimination du péricarpe et des germes) et poli.
+ 
+ Synonymes : riz décortiqué, riz brun.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_cargo_expansé</IRI>
+        <Literal>Grain de riz (Oryza sativa L.) obtenu par décorticage du riz paddy, ayant subi une expansion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_cargo_extrudé</IRI>
+        <Literal>Grain de riz (Oryza sativa L.) obtenu par décorticage du riz paddy, ayant subi une extrusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_cuit</IRI>
+        <Literal>Grain de riz blanchi (Oryza sativa L.) ayant subi une cuisson.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_expansé</IRI>
+        <Literal>Grain de riz (Oryza sativa L.) ayant subi une expansion. Il s&apos;agit probablement de riz blanchi.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_extrudé</IRI>
+        <Literal>Grain de riz blanchi (Oryza sativa L.) ayant subi une extrusion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_floconné</IRI>
+        <Literal>Grain de riz (Oryza sativa L.) ayant subi un floconnage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_non_traité</IRI>
+        <Literal>Riz  n&apos;ayant pas subi de transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_paddy</IRI>
+        <Literal>Grain de riz (Oryza sativa L.) entier, encore entouré de ses balles. Une fois celles-ci éliminées, on obtient le riz cargo (riz brun, riz décortiqué).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_paddy_broyé</IRI>
+        <Literal>Riz paddy broyé (Oryza sativa L.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_paddy_ensilé</IRI>
+        <Literal>Riz paddy ensilé (Oryza sativa L.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_paddy_floconné</IRI>
+        <Literal>Riz paddy floconné (Oryza sativa L.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_paddy_germé</IRI>
+        <Literal>Riz paddy germé (Oryza sativa L.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_poli</IRI>
+        <Literal>Grain de riz poli (Oryza sativa L.). Le riz poli est le produit final utilisé en alimentation humaine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_poli_floconné</IRI>
+        <Literal>Grain de riz (Oryza sativa L.) ayant subi un polissage suivi d&apos;un floconnage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_précuit</IRI>
+        <Literal>Grain de riz poli et cuit (Oryza sativa L.) utilisé en alimentation humaine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Riz_traité</IRI>
+        <Literal>Riz  ayant subi une transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sarrasin</IRI>
+        <Literal>Pseudo-céréale (Fagopyrum esculentum), à cycle court, utilisée en alimentation humaine et comme plante mellifère.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sarrasin_Traité</IRI>
+        <Literal>Sarrasin  ayant subi une transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sarrasin_non_traité</IRI>
+        <Literal>Sarrasin  n&apos;ayant pas subi de transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Scrobic</IRI>
+        <Literal>Terme local ou vernaculaire désignant, selon les régions sahéliennes, de petites graminées sauvages à grains comestibles, récoltées de façon traditionnelle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Seigle</IRI>
+        <Literal>Céréale annuelle (Secale cereale), résistante au froid et aux sols pauvres, utilisée en panification et comme fourrage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Seigle_13_pourcent_de_prot</IRI>
+        <Literal>Grain de seigle (Secale cereale L.) ayant une teneur exceptionnellement élevée en protéines (&gt; 13%). Il s&apos;agit essentiellement d&apos;échantillons cités dans Baudet, J., Huet, J.C., Mossé, J., 1987. Interdépendance entre la composition en acides aminés du grain de seigle et son taux d&apos;azote. Agronomie, 7:813:819</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Seigle_Traité</IRI>
+        <Literal>Seigle  ayant subi une transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Seigle_biologique</IRI>
+        <Literal>Grain de seigle (Secale cereale L.) issu de l&apos;agriculture biologique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Seigle_expansé</IRI>
+        <Literal>Grain de seigle (Secale secale L.) soufflé par expansion (popping)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Seigle_non_traité</IRI>
+        <Literal>Seigle n&apos;ayant pas subi de transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Semoule_de_riz</IRI>
+        <Literal>Produit de rizerie obtenu après le polissage et constitué de grains de riz (Oryza sativa L.) brisés et moulus. Ce produit est utilisé en principe pour l´alimentation et pour la fabrication des céréales pour le petit déjeuner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho</IRI>
+        <Literal>Céréale annuelle (Sorghum bicolor), très tolérante à la sécheresse et à la chaleur, utilisée pour l’alimentation humaine, animale et industrielle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_Non_Traité</IRI>
+        <Literal>Sorgho n&apos;ayant pas subi de transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_Traité</IRI>
+        <Literal>Sorgho ayant subi une transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_biologique</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) issu de l&apos;agriculture biologique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_blanc</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) avec des téguments clairs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_cireux_faible_en_tanins</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) de variété cireuse et pauvre en tanins (&lt;0.2%MS environ, mais seuil variable).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_cireux_riche_en_tanins</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) de variété cireuse et riche en tanins (&gt;0.2%MS environ, mais seuil variable).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_décortiqué</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) décortiqué</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_expansé</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) ayant subi une expansion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_extrudé</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) ayant subi une extrusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_faible_en_tanins</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) de variétés pauvres en tanins.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_floconné</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) ayant subi un floconnage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_jaune</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) avec des téguments jaune clair.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_riche_en_tanins</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) riche en tanins (&gt; 0,2 %MS environ, mais seuil variable).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_rouge</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) ayant des téguments colorés, rouge à brun. Ces variétés sont normalement plus riches en tanins que les variétés blanches ou jaunes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sétaire</IRI>
+        <Literal>Graminée du genre Setaria, comprenant des espèces cultivées (mil italien) et adventices. Certaines sont utilisées comme céréales secondaires ou fourrages.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Triticale</IRI>
+        <Literal>Céréale hybride issue du croisement du blé (Triticum) et du seigle (Secale), combinant productivité et rusticité, surtout utilisée en alimentation animale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Triticale_aplati</IRI>
+        <Literal>Grain de triticale (× Triticosecale Wittm. ex A. Camus.) ayant subi un aplatissage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Triticale_biologique</IRI>
+        <Literal>Grain de triticale (× Triticosecale Wittm. ex A. Camus.) issu de l&apos;agriculture biologique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Triticale_floconné</IRI>
+        <Literal>Grain de triticale (× Triticosecale Wittm. ex A. Camus.) floconné.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Triticale_germé</IRI>
+        <Literal>Grain de triticale (× Triticosecale Wittm. ex A. Camus.) ayant commencé à germer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Triticale_laminé</IRI>
+        <Literal>Grain de triticale (× Triticosecale Wittm. ex A. Camus.) ayant subi un laminage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Triticale_non_traité</IRI>
+        <Literal>Triticale n&apos;ayant pas subi de transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Triticale_traitée</IRI>
+        <Literal>Triticale ayant subi une transformation par l&apos;homme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Alpiste_(Phalaris_Canariensis)</IRI>
+        <Literal>Grain d&apos;alpiste (Phalaris canariensis L.). L&apos;alpiste est cultivé pour servir à l&apos;alimentation des oiseaux de compagnie.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_blanche_d&apos;hiver</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L.) de variétés d&apos;hiver de couleur blanche.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_maigre,_protéines_sup._14/100</IRI>
+        <Literal>Grain d&apos;avoine riche en protéines (&gt; 14% sur brut) dont un échantillon d&apos;avoine Hinoat (Avena strigosa Schreb. x sativa L.), d&apos;origine Canadienne, développée (1973) initialement pour l&apos;alimentation humaine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_noire_d&apos;hiver</IRI>
+        <Literal>Grain d&apos;avoine (Avena sativa L.) de variétés d&apos;hiver de couleur sombre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_nue,_biologique</IRI>
+        <Literal>Grain d&apos;avoine nue (Avena nuda L.), issu de l&apos;agriculture biologique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_sauvage_(Avena_fatua),_grain_décortiquée</IRI>
+        <Literal>Grain d&apos;avoine sauvage (Avena fatua L.), dont les enveloppes ont été retirées.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avoine_sauvage_(Avena_fatua),_grain_entier</IRI>
+        <Literal>Grain d&apos;avoine sauvage (Avena fatua L.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé,_Afrique_subsaharienne</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) originaire d&apos;Afrique subsaharienne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé,_protéines_sup._17/100</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) ayant une teneur forte en protéines &gt; 17% sur brut.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_humide,_matière_sèche_inf._80/100</IRI>
+        <Literal>Grain de blé (Triticum aestivum L.) humide.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tendre,_amidon_inf._53/100</IRI>
+        <Literal>Grain de blé tendre (Triticum aestivum L.) de mauvaise qualité, ayant une teneur en amidon inférieure à 53 % sur brut.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tendre,_poids_spécifique_sup._69_kg/hl</IRI>
+        <Literal>Grain de blé tendre (Triticum aestivum L.) dont le poids spécifique est inférieur à 69 kg/hl. Ces blés ont pu souffrir de mauvaises conditions climatiques.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tendre_d&apos;hiver_de_type_améliorant_ou_de_force</IRI>
+        <Literal>Grain de blé tendre d&apos;hiver (Triticum aestivum L.) d&apos;une variété améliorante ou de force (très haute valeur de panification).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tendre_d&apos;hiver_de_type_autres_usages</IRI>
+        <Literal>Grain de blé tendre d&apos;hiver (Triticum aestivum L.) d&apos;une variété non panifiable (autres usages).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tendre_d&apos;hiver_de_type_panifiable_courant</IRI>
+        <Literal>Grain de blé tendre d&apos;hiver (Triticum aestivum L.) d&apos;une variété panifiable courante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Blé_tendre_d&apos;hiver_de_type_panifiable_supérieur</IRI>
+        <Literal>Grain de blé tendre d&apos;hiver (Triticum aestivum L.) d&apos;une variété panifiable supérieure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Canihua_(Chenopodium_pallidicaule),_graine</IRI>
+        <Literal>Graine de canihua (Chenopodium pallidicaule Heller). Le canihua est une céréale andine proche du quinoa, dont la graine est utilisée cuite ou pour faire de la farine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Eleusine_(Eleusine_coracana)</IRI>
+        <Literal>Graine d&apos;éleusine (Eleusine coracana (L.) Gaertn.). Synonymes : eleusine, millet africain, millet indien, rupuko, ragi.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Eleusine_(Eleusine_coracana)_décortiquée</IRI>
+        <Literal>Graine d&apos;éleusine (Eleusine coracana (L.) Gaertn.) décortiquée. Synonymes : eleusine, millet africain, millet indien, rupuko, ragi.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Epeautre_(Triticum_spelta)</IRI>
+        <Literal>Grain d&apos;épeautre (Triticum spelta L.), espèce de blé dont la balle adhère fortement au grain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Epeautre_(Triticum_spelta)_biologique</IRI>
+        <Literal>Grain d&apos;épeautre (Triticum spelta L.) issu de l&apos;agriculture biologique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Epeautre_(Triticum_spelta)_décortiqué</IRI>
+        <Literal>Grain d&apos;épeautre (Triticum spelta L.), espèce de blé dont la balle adhère fortement au grain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_d&apos;egyptian_crowfoot_grass_(Dactyloctenium_aegyptium)</IRI>
+        <Literal>Grain d&apos;egyptian crowfoot grass (Dactyloctenium aegyptium (L.) Willd.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_d&apos;herbe_de_Guinée_(Megathyrsus_maximus)</IRI>
+        <Literal>Grain d&apos;herbe de Guinée (Megathyrsus maximus (Jacq.) B. K. Simon &amp; S. W. L. Jacobs). Appellation incertaine au niveau de l&apos;échantillon.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_cram-cram_(Cenchrus_biflorus)</IRI>
+        <Literal>Grain de cram-cram (Cenchrus biflorus Roxb.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_panic_(Panicum_antidotale)</IRI>
+        <Literal>Grain de panic (Panicum antidotale Retz.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_panic_d&apos;eau_(Echinochloa_frumentacea)</IRI>
+        <Literal>Grain de panic d&apos;eau (Echinochloa frumentacea Link)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_panic_pied-de-coq_(Echinochloa_colona)</IRI>
+        <Literal>Grain de panic pied-de-coq (Echinochloa colona (L.) Link)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_panic_pied-de-coq_(Echinochloa_crus-galli)</IRI>
+        <Literal>Grain de panic pied-de-coq (Echinochloa crus-galli (L.) P.Beauv.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_panic_pied-de-coq_(Echinochloa_crus-galli),_décortiqué</IRI>
+        <Literal>Grain décortiqué de panic pied-de-coq (Echinochloa crus-galli (L.) P.Beauv.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_pennisetum_(Pennisetum_violaceum)</IRI>
+        <Literal>Grain de pennisetum (Pennisetum violaceum (Lam.) Rich..)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_riz_rouge_(Oryza_punctata)</IRI>
+        <Literal>Grain de riz rouge (Oryza punctata Kotschy ex Steud.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_scrobic_(Paspalum_scrobiculatum)</IRI>
+        <Literal>Grain de scrobic (Paspalum scrobiculatum L.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_scrobic_(Paspalum_scrobiculatum),_décortiqué</IRI>
+        <Literal>Grain de scrobic (Paspalum scrobiculatum), décortiqué</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_sétaire_naine_(Setaria_pumila)</IRI>
+        <Literal>Grain de sétaire naine (Setaria pumila (Poir.) Roem. &amp; Schult.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_sétaire_verte_(Setaria_viridis)</IRI>
+        <Literal>Grain de sétaire verte (Setaria viridis (L.) P. Beauv.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Grain_de_teff_(Eragrostis_tef)</IRI>
+        <Literal>Grain de teff (Eragrostis tef (Zucc.) Trotter)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Graine_de_panic_(Panicum_turgidum)</IRI>
+        <Literal>Graines de panic (Panicum turgidum Forssk.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Graine_de_panic_(Steinchisma_laxum)</IRI>
+        <Literal>Graines de panic (Panicum laxum Sw.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Mil_(Pennisetum_glaucum)</IRI>
+        <Literal>Graine de mil (Pennisetum glaucum (L.) R. Br.). Synonymes : millet pearl, bulrush millet, millet à chandelle, mil chandelle, millet indien, petit mil, bajra. Autres noms scientifiques : Pennisetum americanum (L.) Leeke, P. typhoides. C&apos;est l&apos;espèce de millet la plus cultivée et c&apos;est une céréale traditionnelle en Afrique de l&apos;Ouest, en particulier au Sahel.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Mil_(Pennisetum_glaucum)_décortiqué</IRI>
+        <Literal>Graine de mil (Pennisetum glaucum (L.) R. Br.). Synonymes : millet pearl, bulrush millet, millet à chandelle, mil chandelle, millet indien, petit mil, bajra. Autres noms scientifiques : Pennisetum americanum (L.) Leeke, P. typhoides.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Millet_commun_(Panicum_miliaceum)</IRI>
+        <Literal>Graine de millet commun (Panicum miliaceum L.). Synonymes : mil, proso, milo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Millet_des_oiseaux_(Setaria_italica)</IRI>
+        <Literal>Graine de millet des oiseaux (Setaria italica (L.) Beauv.). Synonyme : sétaire d&apos;Italie, foxtail millet, moha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Millet_des_oiseaux_(Setaria_italica)_décortiqué,_variété_glutineuse</IRI>
+        <Literal>Graine de millet des oiseaux (Setaria italica (L.) Beauv.) d&apos;une variété riche en gluten. Synonymes : sétaire d&apos;Italie, foxtail millet, moha.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Millet_des_oiseaux_(Setaria_italica)_décortiqué,_variété_non_glutineuse</IRI>
+        <Literal>Graine décortiquée de millet des oiseaux (Setaria italica (L.) Beauv.) d&apos;une variété pauvre en gluten. Synonymes : sétaire d&apos;Italie, foxtail millet, moha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge,_amidon_inf._45/100</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) de teneur en amidon &lt; 45% sur brut.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge,_protéines_sup._15/100</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) très riche en protéines (&gt;15%).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_2_rangs_d&apos;hiver</IRI>
+        <Literal>Grain d&apos;orge 2 rangs (Hordeum vulgare L.) de variétés d&apos;hiver.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_6_rangs_d&apos;hiver</IRI>
+        <Literal>&quot;Grain d&apos;orge 6 rangs (Hordeum vulgare L.) de variétés d&apos;hiver. En France, les orges 6 rangs sont très majoritairement des variétés d&apos;hiver.
+ 
+ Synonyme : escourgeon.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_germée,_matière_sèche_inf._70/100</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) ayant commencé sa germination. Il s&apos;agit en général de germination non désirée.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_germée,_matière_sèche_sup._70/100</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) ayant commencé sa germination. Il s&apos;agit en général de germination non désirée.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orge_nue,_variété_cireuse</IRI>
+        <Literal>Grain d&apos;orge (Hordeum vulgare L.) de variété nue (sans glumelles) et cireuse (amidon riche en amypectine)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Quinoa_(Chenopodium_quinoa)</IRI>
+        <Literal>Graine de quinoa (Chenopodium quinoa Willd.). Le quinoa est une céréale andine cultivée pour sa graine utilisée en alimentation humaine. Egalement appelée quinua ou riz du Pérou.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Quinoa_(Chenopodium_quinoa)_graine_décortiquée</IRI>
+        <Literal>Graine de quinoa (Chenopodium quinoa Willd.) décortiquée. Le quinoa est une céréale andine cultivée pour sa graine utilisée en alimentation humaine. Egalement appelée quinua ou riz du Pérou.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sarrasin_(Fagopyrum_esculentum)_biologique</IRI>
+        <Literal>Graine de sarrasin (Fagopyrum esculentum L.) issue de l&apos;agriculture biologique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sarrasin_(Fagopyrum_esculentum)_décortiqué</IRI>
+        <Literal>Graine de sarrasin (Fagopyrum esculentum L.) décortiquée</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sarrasin_de_Tartarie_(Fagopyrum_tataricum)</IRI>
+        <Literal>Grain de sarrasin de Tartarie (Fagopyrum tataricum (L.) Gaertn)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sarrasin_de_Tartarie_(Fagopyrum_tataricum)_décortiqué</IRI>
+        <Literal>Grain de sarrasin de Tartarie (Fagopyrum tataricum (L.) Gaertn) décortiqué</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho,_amidon_inf._60/100</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) ayant une teneur en amidon faible &lt; 60%.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho,_protéines_sup._14/100</IRI>
+        <Literal>Grain de sorgho (Sorghum bicolor (L.) Moench) ayant une teneur en protéines supérieure à 14% sur brut.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sorgho_sauvage_(Sorghum_bicolor_subsp._verticilliflorum)</IRI>
+        <Literal>Grain de sorgho sauvage (Sorghum bicolor (L.) Moench subsp. verticilliflorum (Steud.) de Wet ex Wiersema &amp; J. Dahlb.)</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
