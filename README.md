@@ -1,6 +1,6 @@
 # Ontologie_Cereales
 
-####Bienvenue sur l’ontologie Kernel Information Retrieval Cereals
+#### Bienvenue sur l’ontologie Kernel Information Retrieval Cereals
 
 ## Objectif
 
